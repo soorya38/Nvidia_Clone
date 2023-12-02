@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NVIDIA GeForce Clone</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.search button {
+    background-color: #76b900;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.account a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.account span {
+    color: #a0a0a0;
+    margin: 0 5px;
+}
+
+.main-nav {
+    background-color: #323232;
+    color: white;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.second-bar {
+    padding-left: 100px;
+    background-color: rgb(25, 25, 25);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.second-bar li {
+    color: lightgrey;
+    list-style-type: none;
+    display: inline;
+    padding-right: 25px;
+}
+
+.show-all-btn {
+    float: right;
+    margin-right: 100px;
+    background-color: yellowgreen;
+    color: white;
+}
+
+.video-container {
+    position: relative;
+    width: 80%; 
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+  }
+
+  .footer-section h4 {
+    color: #00d4ff;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section li {
+    margin-bottom: 8px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+  }
+
+a {
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="logo">
+                    <img src="nvidia-logo.png" alt="NVIDIA Logo">
+                </div>
+                <div class="links">
+                    <a href="#">Shop</a>
+                    <a href="#">Products</a>
+                    <a href="#">Drivers</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <button type="submit">Search</button>
+                </div>
+                <div class="account">
+                    <a href="#">Sign In</a>
+                    <span>|</span>
+                    <a href="#">Create Account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">GeForce RTX 30 Series</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Desktops</a></li>
+                <li><a href="#">Features</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div style="background-color: grey; color: white; font-size: 150%;"><marquee>Featured News</marquee></div>
+     
+    
+         
+
+      <div class="second-bar">
+        <ul>
+            <li>Video</li>
+            <li>Ray Tracing</li>
+            <li>DLSS 3</li>
+            <li>Create</li>
+            <li>RTX Games</li>
+            <li><Button class="show-all-btn" type="submit">Show All</Button></li>
+        </ul>
+      </div>
+
+      <img src="images/carousel2.png" class="d-block w-100" width="1280" height="720">
+      <img src="images/carousel1.png" class="d-block w-100" width="1280" height="720">
+
+    <div class="car-iamge" style="background: rgba(0, 0, 0, 0.5);">
+        <a href="shop_now"><img src="images/shop_now1.png" class="d-block w-100" width="1280" height="720"></a>
+    </div>
+    
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h4 style="color: yellowgreen;">About NVIDIA</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Newsroom</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4 style="color: yellowgreen;">Products</h4>
+            <ul>
+              <li><a href="#">Graphics Cards</a></li>
+              <li><a href="#">Laptops</a></li>
+              <li><a href="#">Desktops</a></li>
+              <li><a href="#">Monitors</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4 style="color: yellowgreen;">Support</h4>
+            <ul>
+              <li><a href="#">Drivers</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>
